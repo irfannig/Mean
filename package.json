@@ -1,0 +1,24 @@
+{
+    "name": "wish-list",
+    "version": "1.0.0",
+    "description": "awesome app",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "client": "npm run start --prefix client",
+        "server": "nodemon app.js"
+    },
+    "author": "Irfan Atar",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.3",
+        "ejs": "^2.6.1",
+        "express": "^4.16.4",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
